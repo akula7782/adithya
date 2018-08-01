@@ -21,10 +21,10 @@ class Ideone
 		}
 		if(sum==m)
 		{
-		System.out.println(" given number"+m+"palindrome");		}
+		System.out.println(" yes");		}
 		else
 	            {
-		  System.out.println("given number"+m+"not palindrome");
+		  System.out.println("no");
 				
 	            }
      }
