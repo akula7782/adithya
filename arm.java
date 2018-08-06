@@ -9,17 +9,17 @@ class Ideone
 {
 	public static void main (String[] args) throws java.lang.Exception
 	{
-		int sum=0,rem,n,tp;
+		int sum=0,rem,n,temp;
 		Scanner sc=new Scanner(System.in);
 		n=sc.nextInt();
-		tp=n;
+		temp=n;
 		while(n>0)
 		{
 			rem=n%10;
 			sum=sum+rem*rem*rem;
 			n=n/10;
 			}
-			if(tp==sum)
+			if(temp==sum)
 			{
 				System.out.println("yes");
 			}
@@ -28,6 +28,6 @@ class Ideone
 				System.out.println("no");
 			}
 			
-			}
-			}
+	}
+}
 
