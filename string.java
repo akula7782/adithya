@@ -20,7 +20,7 @@ class Ideone
 			}
 		}
 		if(flag==1)
-			System.out.println("no");
+			System.out.println("No");
 		else
 		System.out.println("Yes");
 	}
