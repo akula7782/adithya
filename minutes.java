@@ -10,6 +10,6 @@ class Ideone
 		t=sc.nextInt();
 		int h=t/60;
 		int m=t%60;
-		System.out.println(h+ " " +m+ " ");
+		System.out.println(h+ " " +m);
 	}
 }
