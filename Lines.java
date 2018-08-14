@@ -6,11 +6,11 @@ class Ideone
 	public static void main (String[] args) throws java.lang.Exception
 	{
 		int lines=1;
-		Scanner sc = new Scanner(System.in);
-		String str=sc.nextLine();
-		while(sc.hasNextLine())
+		Scanner c = new Scanner(System.in);
+		String var=c.nextLine();
+		while(c.hasNextLine())
                         {  
-                        sc.nextLine();
+                        c.nextLine();
                            lines++;
                         }
                          System.out.println(lines);
