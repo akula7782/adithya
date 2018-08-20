@@ -12,7 +12,7 @@ class Ideone
 	   temp=a;
 	   a=b;
 	   b=temp;
-	   System.out.println(a+ " "+b+ " ");
-	   
+	   System.out.println(a+ " "+b);  
+	   5
 	}
 }
