@@ -5,15 +5,15 @@ class Ideone
 {
 	public static void main (String[] args) throws java.lang.Exception
 	{
-	   char ch;
-        Scanner scan = new Scanner(System.in);
+	   char c;
+        Scanner sc = new Scanner(System.in);
 		
         System.out.print(" ");
-        ch = scan.next().charAt(0);
+        c= sc.next().charAt(0);
 		
-        if(ch=='a' || ch=='A' || ch=='e' || ch=='E' ||
-        ch=='i' || ch=='I' || ch=='o' || ch=='O' ||
-        ch=='u' || ch=='U')
+        if(c=='a' || c=='A' || c=='e' || c=='E' ||
+        c=='i' || c=='I' || c=='o' || c=='O' ||
+        c=='u' || c=='U')
         {
             System.out.print("yes");
         }
